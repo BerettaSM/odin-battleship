@@ -4,12 +4,18 @@
   "description": "Some of the projects for [The Odin Project](https://www.theodinproject.com/), in the javascript syllabus.",
   "main": "index.js",
   "scripts": {
+    "prettier": "prettier . --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "prettier": "3.3.3"
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "prettier": "3.3.3",
+    "typescript-eslint": "^8.0.0"
   }
 }
